@@ -1,11 +1,13 @@
 .hero {
-  width: 1440px;
+  max-width: 1600px;
   height: 831px;
   padding: 195px 720px 250px 120px;
   background-image: url(../img/first_bg.jpg);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
 }
+
 .hero__title {
   font-family: var(--sacodary-font);
   color: var(--acent-cl);
@@ -19,6 +21,39 @@
 .hero__p {
   margin-bottom: 35px;
 }
-.hero__svg {
-  fill: var(--brand-cl);
+
+.skils {
+  padding: 100px 120px 100px 120px;
+}
+.skils__title {
+  font-family: var(--sacodary-font);
+  font-size: 25px;
+  line-height: 1.56;
+  text-align: center;
+  letter-spacing: 0.22px;
+  margin-bottom: 15px;
+}
+
+.skils__list {
+  display: flex;
+  text-align: center;
+}
+.skils__item {
+  display: block;
+  width: 395px;
+  height: 400px;
+
+  &:first-child {
+    padding: 75px 40px 70px 40px;
+  }
+  &:nth-child(2) {
+    padding: 75px 52px 103px 52px;
+  }
+  &:nth-child(3) {
+    padding: 75px 52px 70px 52px;
+  }
+}
+.skils__text {
+  display: block;
+  margin-bottom: 48px;
 }
