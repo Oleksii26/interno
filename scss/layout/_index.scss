@@ -1,0 +1,24 @@
+.hero {
+  width: 1440px;
+  height: 831px;
+  padding: 195px 720px 250px 120px;
+  background-image: url(../img/first_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.hero__title {
+  font-family: var(--sacodary-font);
+  color: var(--acent-cl);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  line-height: 1.2;
+  letter-spacing: 0.22px;
+  margin-bottom: 19px;
+}
+.hero__p {
+  margin-bottom: 35px;
+}
+.hero__svg {
+  fill: var(--brand-cl);
+}

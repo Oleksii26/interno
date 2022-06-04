@@ -1,0 +1,38 @@
+.header {
+  margin-left: auto;
+  margin-right: auto;
+  height: 106px;
+  padding: 26px 120px 18px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  fill: var(--brand-cl);
+}
+.header__logo2 {
+  fill: var(--acent-cl);
+}
+.header__list {
+  display: flex;
+}
+.header_a {
+  color: var(--acent-cl);
+  outline: transparent;
+  &:hover,
+  &:focus {
+    color: var(--brand-cl);
+  }
+}
+.header__link {
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+  color: var(--acent-cl);
+  display: block;
+  color: inherit;
+
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
+}
