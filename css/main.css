@@ -23,7 +23,6 @@
 }
 
 .section {
-  width: 1470px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -68,7 +67,6 @@ a {
   margin-left: auto;
   margin-right: auto;
   height: 106px;
-  padding: 26px 120px 18px 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,12 +115,12 @@ a {
 }
 
 .hero {
-  max-width: 1600px;
+  max-width: 1440px;
   height: 831px;
-  padding: 195px 720px 250px 120px;
+  padding: 200px;
   background-image: url(../img/first_bg.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
@@ -396,6 +394,86 @@ a {
   letter-spacing: 1.7px;
   color: var(--brand-cl);
   margin-bottom: 10px;
+}
+
+.blog {
+  padding: 30px;
+}
+
+.blog__title {
+  font-family: var(--sacodary-font);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 62px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: var(--acent-cl);
+}
+
+.blog__text {
+  text-align: center;
+}
+
+.blog__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.blog__div {
+  position: relative;
+  width: 296px;
+  height: 346px;
+}
+
+.blog__design {
+  position: absolute;
+  top: 223px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.22px;
+  border-radius: 8px 8px 8px 0;
+  left: 24px;
+  width: 125px;
+  height: 44px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blog__link {
+  outline: 1px solid var(--acent-cl);
+  width: 387px;
+  height: 515px;
+  padding: 21px 21px 40px 21px;
+  border-radius: 62px;
+}
+
+.blog__link:nth-child(3n) {
+  margin-bottom: 30px;
+}
+
+.blog__link:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.blog__h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.5px;
 }
 
 .button {
